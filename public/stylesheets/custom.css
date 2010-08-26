@@ -118,7 +118,7 @@ table.profile {
 }
 
 td.main {
-  width: 70%;
+  width: 440px;
   padding: 1em;
 }
 
@@ -207,6 +207,9 @@ table.microposts tr td.micropost {
 }
 
 table.microposts tr td.micropost .content {
+	display: block;
+	width: 305px;
+	
 	white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
 	white-space: -pre-wrap; /* Opera 4 - 6 */
 	white-space: -o-pre-wrap; /* Opera 7 */

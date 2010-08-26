@@ -1,7 +1,7 @@
 module MicropostsHelper
 
   def display(content)
-    wrap_long_string(auto_link(sanitize(content)))
+    auto_link(sanitize(content))
   end
   
   def wrap(content)
